@@ -1,0 +1,71 @@
+.w-4 {
+  width: 1rem;
+}
+.h-4 {
+  height: 1rem;
+}
+
+.w-6 {
+  width: 1.5rem;
+}
+.h-6 {
+  height: 1.5rem;
+}
+
+.dropzone {
+  background: white;
+  border-radius: 5px;
+  border: 2px dashed rgb(0, 135, 247);
+  border-image: none;
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.list-group-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* Ensures space between items */
+}
+
+.details {
+  flex-grow: 1; /* Allows the details to take available space */
+}
+
+.status-container {
+  display: flex;
+  justify-content: center; /* Center the status button horizontally */
+}
+
+.status-toggle {
+  border: none;
+  background: none;
+  padding: 0;
+  cursor: pointer;
+}
+
+.status-toggle svg {
+  pointer-events: none; /* Makes sure the click event goes to the button and not the icon */
+}
+
+
+.details {
+  margin-left: 10px;
+}
+
+.details .d-flex {
+  margin-bottom: 5px;
+}
+
+.details .font-weight-bold {
+  font-weight: bold;
+  margin-right: 5px;
+}
+
+.actions {
+  margin-left: auto;
+}
+
+#sortable-list .list-group-item:hover{
+  background-color: #e5eff1;
+}
+
